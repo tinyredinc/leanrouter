@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title><?php echo Config::getConfig('BASIC_CONFIG')['APP_NAME'].' - '.$page_name;?></title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="<?php echo $page_desc;?>" />
+	<meta name="keywords" content="<?php echo $page_keywords;?>" />
+	<link rel="stylesheet" href="<?php echo Config::getCdnBase()?>/assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="<?php echo Config::getCdnBase();?>/assets/css/main.css" />
+	<?php
+		if(isset($header_scripts) && !empty($header_scripts)){
+			foreach($header_scripts as $line){
+				echo $line;
+			}
+		}
+	?>
+</head>

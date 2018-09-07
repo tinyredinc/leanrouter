@@ -1,0 +1,14 @@
+{
+	"name": "tinyredinc/leanrouter",
+	"description": "A router only php framework for display purpose web application.",
+	"homepage": "https://sideai.com/",
+	"keywords": [
+		"web",
+		"router",
+		"php"
+	],
+	"require": {
+		"php": ">=7.0",
+		"qcloud/cos-sdk-v5": ">=1.0"
+	}
+}
