@@ -8,7 +8,7 @@
 	<meta name="description" content="<?php echo $page_desc;?>" />
 	<meta name="keywords" content="<?php echo $page_keywords;?>" />
 	<link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="/assets/css/main.css" />
+	<link rel="stylesheet" href="<?php echo Config::getCdnBase()?>/assets/css/main.css" />
 	<?php
 		if(isset($header_scripts) && !empty($header_scripts)){
 			foreach($header_scripts as $line){
