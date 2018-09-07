@@ -28,7 +28,7 @@ class CdnDriver
 			)
 		));
 		$this->cos_bucket = $cdn_config['COS_BUCKET'];
-		$this->cdn_site = $cdn_config['CDN_SITE'];
+		$this->cdn_site = $cdn_config['CDN_SITE'].'/';
 	}
 	
 	
